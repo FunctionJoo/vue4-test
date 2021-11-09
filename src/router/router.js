@@ -7,7 +7,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/foo', component: HelloWorld },
-    { path: '/bar', components: Comp01 }
+    { path: '/bar', component: Comp01 }
   ]
 });
 
